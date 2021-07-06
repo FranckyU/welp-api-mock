@@ -1,6 +1,6 @@
 # Welp API mock
 
-This is a simple mock API for Yelp Fusion V3
+This is a simple mock API around Yelp Fusion V3.
 
 ## Supported API endpoints
 
