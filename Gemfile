@@ -1,8 +1,14 @@
-source "https://rubygems.org"
+# frozen_string_literal: true
 
-ruby "2.7.3"
+source 'https://rubygems.org'
 
-gem "sinatra"
-gem "sinatra-contrib"
-gem "thin"
-gem "zeitwerk"
+ruby '2.7.3'
+
+gem 'sinatra'
+gem 'sinatra-contrib'
+gem 'thin'
+gem 'zeitwerk'
+
+group :development do
+  gem 'rubocop', require: false
+end

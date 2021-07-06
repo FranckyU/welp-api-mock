@@ -1,9 +1,11 @@
+# frozen_string_literal: true
+
 require 'rubygems'
 require 'bundler'
 
 Bundler.require
 
-require "sinatra/reloader"
+require 'sinatra/reloader'
 
 loader = Zeitwerk::Loader.new
 loader.push_dir("#{__dir__}/responses")

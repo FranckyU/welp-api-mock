@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Autocomplete
   class Response
     def initialize(params: {})
@@ -12,7 +14,7 @@ module Autocomplete
     private
 
     def default
-      { 
+      {
         terms: [
           {
             text: 'Delivery'
@@ -20,29 +22,29 @@ module Autocomplete
         ],
         businesses: [
           {
-            name: 'Delfina', 
+            name: 'Delfina',
             id: 'YqvoyaNvtoC8N5dA8pD2JA'
           },
           {
-            text: 'Delarosa', 
+            text: 'Delarosa',
             id: 'vu6PlPyKptsT6oEq50qOzA'
           },
           {
-            text: 'Pizzeria Delfina', 
+            text: 'Pizzeria Delfina',
             id: 'bai6umLcCNy9cXql0Js2RQ'
           }
         ],
         categories: [
           {
-            alias: 'delis', 
+            alias: 'delis',
             title: 'Delis'
           },
           {
-            alias: 'fooddeliveryservices', 
+            alias: 'fooddeliveryservices',
             title: 'Food Delivery Services'
           },
           {
-            alias: 'couriers', 
+            alias: 'couriers',
             title: 'Couriers & Delivery Services'
           }
         ]
@@ -50,4 +52,3 @@ module Autocomplete
     end
   end
 end
-

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class App < Sinatra::Base
   MOCK_AUTH_TOKEN = '1234567890TOK'
 
@@ -7,7 +9,7 @@ class App < Sinatra::Base
 
   before do
     unless headers['Authorization'] == "Bearer #{MOCK_AUTH_TOKEN}"
-      halt 401, {'Content-Type' => 'text/plain'}, 'Not authorized'
+      halt 401, { 'Content-Type' => 'text/plain' }, 'Not authorized'
     end
 
     content_type :json
