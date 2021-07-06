@@ -5,20 +5,27 @@ This is a simple mock API for Yelp Fusion V3
 ## Supported API endpoints
 
 **Autocomplete**
+
 Path: */autocomplete*
+
 Documentation: https://www.yelp.com/developers/documentation/v3/autocomplete
 
 **Search**
+
 Path: */businesses/search*
+
 Documentation: https://www.yelp.com/developers/documentation/v3/business_search
 
 **Business details**
+
 Path: */businesses/:id*
+
 Documentation: https://www.yelp.com/developers/documentation/v3/business
 
 ## Authentication
 
 Follows the standard Fusion V3 authentication scheme with passing auth token in the `Authorization` header.
+
 For more info, please refer to https://www.yelp.com/developers/documentation/v3/authentication
 
 ## Running it
