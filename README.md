@@ -40,3 +40,16 @@ Running in development environment is quite straightforward:
 4. The API endpoints are now available from `http://127.0.0.1:9292`
 
 Note that in order to access the API you must pass the auth token in headers, the token value is in the `MOCK_AUTH_TOKEN` constant (cf. app.rb)
+
+## Contributing
+
+Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/welp-api-mock. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/welp-api-mock/blob/main/CODE_OF_CONDUCT.md).
+
+
+## License
+
+The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
+## Code of Conduct
+
+Everyone interacting in the project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/welp-api-mock/blob/main/CODE_OF_CONDUCT.md).
