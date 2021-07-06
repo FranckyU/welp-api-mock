@@ -30,6 +30,8 @@ For more info, please refer to https://www.yelp.com/developers/documentation/v3/
 
 ## Running it
 
+The stack is built using **Sinatra/Sinatra::Reloader**, **Thin**, **Bundler** and **Zeitwerk**.
+
 Running in development environment is quite straightforward:
 
 1. Clone the repository and `cd` into it -> ideally within a RVM or rbenv environment
